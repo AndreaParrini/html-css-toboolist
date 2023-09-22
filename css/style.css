@@ -43,18 +43,14 @@ h1{
     font-size: 2.8rem;
 }
 
-/* style main */
+/* style nav add */
 
-main{
+.nav_add{
     width: 80%;
     margin: auto;
     margin-top: 2rem;
     padding-left: 3.5rem;
     background-color: var(--color-primary);
-}
-
-.section_add{
-    margin-bottom: 1rem;
 }
 
 .add_task{
@@ -73,6 +69,49 @@ main{
     padding: 0.5rem 1rem;
     margin: 0.8rem 0;
     border-radius: 0.5rem;
+}
+
+/* style main */
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 0.3rem;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+    background-color: var(--color-primary);
+}
+
+/* style section new task */
+
+.title_section{
+    margin-bottom: 0.4rem;
+}
+
+.triangolo{
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.box_check{
+    color: var(--button-lightgreen);
+    border-radius: 50%;
+    border: 1px solid var(--button-lightgreen);
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.category_task{
+    background-color: var(--button-blue);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    margin: 0.8rem 0.5rem;
+    border-radius: 0.8rem;
 }
 
 
