@@ -1,5 +1,41 @@
+/* reset rule*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* color */
+
+:root{
+    --color-main: #f6f8f9;
+    --button-blue: #47adf1;
+    --text-gray: #d0d5d8;
+    --button-purple: #9c72e4;
+    --button-lightgreen: #64c0a9;
+    --button-pink: #d863a1;
+    --button-orange: #f29e33;
+    --button-green: #b0c926;
+    --button-red: #eb5952;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*style header*/
+
+header{
+    padding: 2.2rem;
+}
+
+.site_logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.8rem;
 }
