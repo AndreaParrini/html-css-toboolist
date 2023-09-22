@@ -9,7 +9,8 @@
 /* color */
 
 :root{
-    --color-main: #f6f8f9;
+    --color-body: #f6f8f9;
+    --color-primary: white;
     --button-blue: #47adf1;
     --text-gray: #d0d5d8;
     --button-purple: #9c72e4;
@@ -22,12 +23,14 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: var(--color-body);
 }
 
 /*style header*/
 
 header{
-    padding: 2.2rem;
+    padding: 1rem 2.2rem;
+    background-color: var(--color-primary);
 }
 
 .site_logo{
@@ -39,3 +42,37 @@ h1{
     vertical-align: middle;
     font-size: 2.8rem;
 }
+
+/* style main */
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-left: 3.5rem;
+    background-color: var(--color-primary);
+}
+
+.section_add{
+    margin-bottom: 1rem;
+}
+
+.add_task{
+    background-color: var(--button-blue);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 0.5rem;
+}
+
+.add_section{
+    border: 1.5px solid var(--text-gray);
+    color: var(--text-gray);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 0.5rem;
+}
+
+
